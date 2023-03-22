@@ -1,25 +1,23 @@
 import logo from './logo.svg';
 import './App.css';
 
+
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      /* <h1>jai Shree Shyam</h1> */
+    <div className="w-[100vw] h-[100vh] flex justify-center items-center bg-[#344151] flex-col gap-10">
+      <div className="text-[#0398d4] font-medium text-2xl">Increment && Decrement</div>
+      <div>
+        <button>
+          -
+        </button>
+        <div></div>
+        <button>
+          +
+        </button>
+      </div>
+      <button>Reset</button>
     </div>
-  );
-}
+  )};
 
 export default App;
